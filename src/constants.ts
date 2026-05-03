@@ -42,15 +42,15 @@ export const PERFORMANCES: Performance[] = Array.from({ length: 9 }, (_, i) => {
     id: i + 1,
     title: PIECE_NAMES[i],
     videoComparison: {
-      oursHybrid: `${import.meta.env.BASE_URL}hybrid/${exampleId}.mov`,
+      oursHybrid: `hybrid/${exampleId}.mov`,
       oursOnline: 'https://www.w3schools.com/html/mov_bbb.mp4',
-      logicPro: `${import.meta.env.BASE_URL}logic/${exampleId}.mov`,
+      logicPro: `logic/${exampleId}.mov`,
     },
     scoreComparison: {
-      oursHybrid: { id: `h-${i}`, name: 'Ours (Hybrid)', musicXmlUrl: `${import.meta.env.BASE_URL}hybrid/${exampleId}.musicxml`, audioUrl: `${import.meta.env.BASE_URL}hybrid/${exampleId}.mp3` },
-      oursOnline: { id: `o-${i}`, name: 'Ours (Online)', musicXmlUrl: `${import.meta.env.BASE_URL}online/${exampleId}.musicxml`, audioUrl: `${import.meta.env.BASE_URL}online/${exampleId}.mp3` },
-      liuEtAl: { id: `l-${i}`, name: 'Liu et al.', musicXmlUrl: `${import.meta.env.BASE_URL}liu_et_al/${exampleId}.musicxml`, audioUrl: `${import.meta.env.BASE_URL}liu_et_al/${exampleId}.mp3` },
-      beyerEtAl: { id: `b-${i}`, name: 'Beyer et al.', musicXmlUrl: `${import.meta.env.BASE_URL}beyer_et_al/${exampleId}.musicxml`, audioUrl: `${import.meta.env.BASE_URL}beyer_et_al/${exampleId}.mp3` },
+      oursHybrid: { id: `h-${i}`, name: 'Ours (Hybrid)', musicXmlUrl: `/hybrid/${exampleId}.musicxml`, audioUrl: `/hybrid/${exampleId}.mp3` },
+      oursOnline: { id: `o-${i}`, name: 'Ours (Online)', musicXmlUrl: `/online/${exampleId}.musicxml`, audioUrl: `/online/${exampleId}.mp3` },
+      liuEtAl: { id: `l-${i}`, name: 'Liu et al.', musicXmlUrl: `/liu_et_al/${exampleId}.musicxml`, audioUrl: `/liu_et_al/${exampleId}.mp3` },
+      beyerEtAl: { id: `b-${i}`, name: 'Beyer et al.', musicXmlUrl: `/beyer_et_al/${exampleId}.musicxml`, audioUrl: `/beyer_et_al/${exampleId}.mp3` },
     },
   };
 });
