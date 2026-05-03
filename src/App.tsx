@@ -4,7 +4,6 @@ import PerformanceItem from "./components/PerformanceItem";
 export default function App() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
-      {/* Centered Academic Header */}
       <header className="py-20 px-6 border-b border-gray-100">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="text-2xl md:text-4xl font-bold tracking-tight mb-6">
