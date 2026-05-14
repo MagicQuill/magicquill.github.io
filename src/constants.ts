@@ -38,8 +38,8 @@ const PIECE_NAMES = [
 ]
 
 const DESCRIPTIONS = [
-  "Improvised in the key of Ab major in 4/4 meter, this performance employs extensive rubato to convey emotional nuance, demonstrating the capability of neural-network based models in transcribing expressive performances.",
-  "This piece is composed by Yasunori Mitsuda in the key of C minor in 3/4 meter. The performance employs extensive rubato to emphasize key dramatic moments.",
+  "Improvised in the key of Ab major in 4/4 meter, this performance employs rubato and expressive timing deviations to convey emotional nuance, demonstrating the capability of neural-network based models in transcribing expressive performances.",
+  "This piece is composed by Yasunori Mitsuda in the key of C minor in 3/4 meter. The performance employs rubato and expressive timing deviations to emphasize key dramatic moments.",
   "Composed by Falcom Sound Team jdk and arranged by the author in F minor with 6/8 meter, this example illustrates the model's ability to handle an expressive performance in a compound meter, following the previous examples in 4/4 and 3/4.",
   "Composed by J.S. Bach, this piece does not appear in the training, validation, or test data, yet it represents a musical style familiar to the models. While our hybrid model fails to correctly identify the 4/4 meter, it successfully preserves the relative inter-onset interval ratios, as demonstrated in the transcribed score playback.",
   'Composed by Famishin in D minor (4/4) and arranged by the author, this piece challenges all the models with its swing rhythm. As an out-of-distribution style, it tests the limits of the models\' ability to transcribe non-straight rhythmic patterns. Interestingly, our hybrid model interprets the piece in 6/8, while Beyer et al.\'s end-to-end model treats the notes as dotted sixteenths.',
