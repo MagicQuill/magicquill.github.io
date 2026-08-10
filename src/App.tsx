@@ -11,9 +11,9 @@ export default function App() {
             Inference and Offline Refinement
           </h1>
 
-          <div className="flex flex-col items-center gap-4 text-sm text-gray-500 mb-8">
+          {/* <div className="flex flex-col items-center gap-4 text-sm text-gray-500 mb-8">
             <div className="font-medium text-gray-900">Anonymous Authors</div>
-          </div>
+          </div> */}
 
           <div className="inline-flex items-center px-3 py-1 bg-yellow-50 text-yellow-700 text-[10px] font-bold uppercase tracking-widest rounded border border-yellow-100">
             Supplementary Demo Material
