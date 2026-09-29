@@ -7,16 +7,44 @@ export default function App() {
       <header className="py-20 px-6 border-b border-gray-100">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="text-2xl md:text-4xl font-bold tracking-tight mb-6">
-            Magic Quill: Instantaneous MIDI-to-Score Transcription via Online
-            Inference and Offline Refinement
+            Magic Quill: A Real-time Score Engraving System for <br />
+            Live MIDI Performances
           </h1>
 
-          {/* <div className="flex flex-col items-center gap-4 text-sm text-gray-500 mb-8">
-            <div className="font-medium text-gray-900">Anonymous Authors</div>
+          <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-sm text-gray-500 mb-8">
+            <a
+              className="font-medium text-gray-900 hover:text-blue-700 hover:underline"
+              href="https://openreview.net/profile?id=~Lynn_Ye1"
+            >
+              Lynn Ye
+            </a>
+            <span aria-hidden="true">·</span>
+            <a
+              className="font-medium text-gray-900 hover:text-blue-700 hover:underline"
+              href="https://openreview.net/profile?id=~Roger_Dannenberg1"
+            >
+              Roger Dannenberg
+            </a>
+            <span aria-hidden="true">·</span>
+            <a
+              className="font-medium text-gray-900 hover:text-blue-700 hover:underline"
+              href="https://openreview.net/profile?id=~Chris_Donahue1"
+            >
+              Chris Donahue
+            </a>
+          </div>
+
+          {/* <div className="mb-5">
+            <a
+              className="inline-flex items-center px-3 py-1 bg-violet-50 text-violet-700 text-[10px] font-bold uppercase tracking-widest rounded border border-violet-100 hover:bg-violet-100"
+              href="https://openreview.net/forum?id=O9ZOnF0ABH"
+            >
+              NeurIPS 2026 Creative AI Track: Agency
+            </a>
           </div> */}
 
           <div className="inline-flex items-center px-3 py-1 bg-yellow-50 text-yellow-700 text-[10px] font-bold uppercase tracking-widest rounded border border-yellow-100">
-            Supplementary Demo Material
+            NeurIPS 2026 Creative AI Track: Agency
           </div>
         </div>
       </header>
@@ -112,8 +140,8 @@ export default function App() {
           <ol className="list-decimal list-inside text-xs text-gray-500 space-y-2">
             <li>
               <span className="italic">
-                L. Liu, Q. Kong, V. Morfi, and E. Benetos, “Performance
-                MIDI-to-score conversion by neural beat tracking,” in
+                Lele Liu, Qiuqiang Kong, Veronica Morfi, and Emmanouil Benetos.
+                Performance MIDI-to-score conversion by neural beat tracking. In
                 Proceedings of the 23rd International Society for Music
                 Information Retrieval Conference (ISMIR), Bengaluru, India,
                 December 2022.
@@ -121,12 +149,27 @@ export default function App() {
             </li>
             <li>
               <span className="italic">
-                T. Beyer and A. Dai, “End-to-end piano performance-MIDI to score
-                conversion with transformers,” in International Society for
+                Tim Beyer and Angela Dai. End-to-end piano performance-MIDI to
+                score conversion with transformers. In International Society for
                 Music Information Retrieval Conference, 2024.
               </span>
             </li>
           </ol>
+        </section>
+
+        <section className="mt-12 border-t border-gray-100 pt-10">
+          <h2 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-4">
+            Citation
+          </h2>
+          <pre className="overflow-x-auto rounded-lg border border-gray-200 bg-gray-50 p-5 text-xs leading-relaxed text-gray-700">
+            <code>{`@inproceedings{ye2026magic,
+  title={Magic Quill: A Real-time Score Engraving System for Live {MIDI} Performances},
+  author={Lynn Ye and Roger Dannenberg and Chris Donahue},
+  booktitle={The Fortieth Annual Conference on Neural Information Processing Systems Creative AI Track: Agency},
+  year={2026},
+  url={https://openreview.net/forum?id=O9ZOnF0ABH}
+}`}</code>
+          </pre>
         </section>
       </main>
 
