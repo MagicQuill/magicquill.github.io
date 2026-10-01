@@ -34,9 +34,9 @@ export default function App() {
             </a>
           </div>
 
-          {/* <div className="inline-flex items-center px-3 py-1 bg-yellow-50 text-yellow-700 text-[10px] font-bold uppercase tracking-widest rounded border border-yellow-100">
+          <div className="inline-flex items-center px-3 py-1 bg-yellow-50 text-yellow-700 text-[10px] font-bold uppercase tracking-widest rounded border border-yellow-100">
             NeurIPS 2026 Creative AI Track: Agency
-          </div> */}
+          </div>
         </div>
       </header>
 
